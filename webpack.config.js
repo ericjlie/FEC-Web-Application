@@ -1,4 +1,5 @@
 const path = require('path');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 
 const SRC_DIR = path.join(__dirname, '/client/src');
 const DIST_DIR = path.join(__dirname, '/client/dist');
@@ -31,11 +32,12 @@ module.exports = {
                   regenerator: true,
                 },
               ],
+
             ],
           },
         },
       },
     ],
   },
-  resolve: { extensions: ['.js', '.jsx'] },
+  resolve: { extensions: ['.js', '.jsx', '.mjs'] },
 };

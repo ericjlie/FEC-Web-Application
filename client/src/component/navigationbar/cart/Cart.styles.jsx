@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { RiShoppingCart2Fill } from 'react-icons/ri';
+// import { RiShoppingCart2Fill } from 'react-icons/ri';
 
 const CartIcon = styled(RiShoppingCart2Fill)`
   margin-right: .8rem;

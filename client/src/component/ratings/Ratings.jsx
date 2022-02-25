@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState, useMemo, useEffect } from 'react';
 import axios from 'axios';
-import { MdStar } from 'react-icons/md';
+// import { MdStar } from 'react-icons/md';
 // import reviewMetaFetcher from '../reviews/breakdown/breakdownFetcher';
 import { Container, Radio, Rating } from './Ratings.styles';
 

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { MdThumbUpAlt } from 'react-icons/md';
+// import { MdThumbUpAlt } from 'react-icons/md';
 
 export const Container = styled.div`
 margin: auto;

@@ -1,8 +1,8 @@
 /* eslint-disable jsx-a11y/label-has-associated-control */
 import React, { useState } from 'react';
-import {
-  BsFillEmojiExpressionlessFill, BsFillEmojiFrownFill, BsFillEmojiNeutralFill, BsFillEmojiSmileFill, BsFillEmojiHeartEyesFill,
-} from 'react-icons/bs';
+// import {
+//   BsFillEmojiExpressionlessFill, BsFillEmojiFrownFill, BsFillEmojiNeutralFill, BsFillEmojiSmileFill, BsFillEmojiHeartEyesFill,
+// } from 'react-icons/bs';
 // import reviewMetaFetcher from '../reviews/breakdown/breakdownFetcher';
 import {
   Container, Radio, Rating, Label, SubTitle, SubTitleBox,

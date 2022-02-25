@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 // import '../../../dist/style.css';
 import styled from 'styled-components';
-import { IoIosRemoveCircle } from 'react-icons/io';
+// import { IoIosRemoveCircle } from 'react-icons/io';
 import {
   CardWrapper,
   CardImage,

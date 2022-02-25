@@ -52,23 +52,6 @@ function App() {
   const [photoModal, setPhotoModal] = useState(false);
   const [reviewPhotos, setReviewPhotos] = useState([]);
 
-  // const productIdSetting = {
-  //   productId: globalProductId,
-  //   productInfo: globalProductInfo,
-  //   productStyle: globalProductStyle,
-  //   theRelatedInfo: globalTheRelatedInfo,
-  //   modalStatus: modalClicked,
-  //   currentSize,
-  //   currentQuantity,
-  //   setGlobalProductInfo,
-  //   setGlobalProductId,
-  //   setGlobalProductStyle,
-  //   setGlobalTheRelatedInfo,
-  //   setModalClicked,
-  //   setCurrentSize,
-  //   setCurrentQuantity,
-  // };
-
   const value = useMemo(() => (
     {
       productId: globalProductId,
