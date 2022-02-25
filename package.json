@@ -8,7 +8,7 @@
   "private": true,
   "scripts": {
     "start": "nodemon server/index.js",
-    "react-dev": "webpack --config ./webpack.config.js -w --json > stats.json",
+    "react-dev": "webpack --config ./webpack.config.js -w",
     "test": "jest"
   },
   "devDependencies": {
