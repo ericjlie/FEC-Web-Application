@@ -1,6 +1,6 @@
 /* eslint-disable import/prefer-default-export */
 import React, { useContext } from 'react';
-// import { ImCancelCircle } from 'react-icons/im';
+import { ImCancelCircle } from 'react-icons/im';
 import styled from 'styled-components';
 import {
   ModalWrapper, LeftPic, RightPic, Title, LeftDescription, LeftTitle, RightTitle, LeftFeatures, RightFeatures, RightDescription,
